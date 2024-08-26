@@ -7,5 +7,16 @@ Console.Write("Ange förnamn:");
 string förnamn = Console.ReadLine();
 Console.Write("Ange efternamn:");
 string efternamn = Console.ReadLine();
-Console.WriteLine("Hej! " + förnamn + " " + efternamn);
+//Console.WriteLine("Hej! " + förnamn + " " + efternamn);
 Console.WriteLine($"Hej! {förnamn} {efternamn}");
+
+// Är det Robin som loggar in?
+if (förnamn == "Robin")
+{
+    Console.WriteLine("Vad trevligt att du är tillbaka!");
+}
+
+if (efternamn == "Timmergård")
+{
+    Console.WriteLine("Fint efternamn!");
+}
