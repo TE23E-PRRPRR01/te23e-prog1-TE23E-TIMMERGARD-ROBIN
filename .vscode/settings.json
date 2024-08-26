@@ -1,10 +1,10 @@
 {
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorCustomizations": {
-        "activityBar.background": "#3B1D61",
-        "titleBar.activeBackground": "#532888",
-        "titleBar.activeForeground": "#FBF9FD"
+        "activityBar.background": "#5e611d00",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#319cf4"
     },
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
