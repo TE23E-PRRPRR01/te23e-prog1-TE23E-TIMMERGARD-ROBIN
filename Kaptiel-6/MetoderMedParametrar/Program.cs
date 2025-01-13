@@ -21,7 +21,7 @@ Console.Clear();
 // UpprepaText("Hej", 3);
 // UpprepaText("Hejsan", 5);
 
-OmvandlaCTillF(37);
+KastaTärning(6);
 
 /* **********************************************
 * **************** M E T O D E R ****************
@@ -62,4 +62,12 @@ static void OmvandlaCTillF(int celsius)
 {
     int fahrenheit = celsius * 9/5 + 32;
     Console.WriteLine($"{celsius} grader Celsius motsvarar {fahrenheit} grader Fahrenheit");
+}
+
+static void KastaTärning(int antal)
+{
+    for (int i = 0; i < antal; i++)
+    {
+        Console.WriteLine($"Tärningen visar {Random.Shared.Next(1, 7)}");
+    }
 }
